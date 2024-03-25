@@ -15,10 +15,15 @@ jobs:
     steps:
       - name: Echo the message
         run: echo "Goodbye javi"
-  dame_la_fecha:
+  dame_la_fecha_y_hacer_ls:
     runs-on: ubuntu-22.04
     steps:
       - name: fecha
-        run: date      
-      - run: ls -l
+        run: date    
+        
+        
+      - name: listar archivos  
+        run: ls -l
+        #este por ejemplo no tiene nombre
+      - run: touch example.txt
     
