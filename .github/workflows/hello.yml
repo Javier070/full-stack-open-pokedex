@@ -1,7 +1,4 @@
 name: Say hello
-# buenas 2
-# buenas 3
-#buenas 4
 on:
     push:
         branches:
