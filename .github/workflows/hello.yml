@@ -1,11 +1,17 @@
-name: Say hello
+name: Say hello and goodbye
 on:
-    push:
-        branches:
-            - master
+  push:
+    branches:
+      - master
 jobs:
-    hello_world_jobs:
-        runs-on: ubuntu-18.04 #le indicamos la version de jobs
-        steps:
-            - name: Echo the message
-              run: echo "Hello javi"
+  hello_world_job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo the message
+        run: echo "Hello javi"
+
+  goodbye_world_job:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo the message
+        run: echo "Goodbye javi"
