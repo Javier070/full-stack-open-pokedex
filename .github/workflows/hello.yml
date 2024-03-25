@@ -7,7 +7,7 @@ on:
         branches:
             - master
 jobs:
-    hello_owlrd:
+    hello_wolrd_jobs:
         runs-on: ubuntu-18.04 #le indicamos la version de jobs
         steps:
             - name: Echo the message
