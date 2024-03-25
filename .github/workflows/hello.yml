@@ -1,0 +1,11 @@
+name: Say hello
+on:
+    push:
+        branches:
+            - master
+jobs:
+    hello_owlrd:
+        runs-on: ubuntu-18.04 #le indicamos la version de jobs
+        steps:
+            - name: Echo the message
+              run: echo "Hello javi"
