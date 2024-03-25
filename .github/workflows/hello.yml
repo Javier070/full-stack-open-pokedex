@@ -2,7 +2,7 @@ name: Say hello
 on:
     push:
         branches:
-            - master
+            - main
 jobs:
     hello_world_jobs:
         runs-on: ubuntu-18.04 #le indicamos la version de jobs
