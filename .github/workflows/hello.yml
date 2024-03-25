@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Echo the message
         run: echo "Goodbye javi"
-  dame_la_fecha_y_hacer_ls:
+  dame_la_fecha_hacer_ls_crear_texto:
     runs-on: ubuntu-22.04
     steps:
       - name: fecha
